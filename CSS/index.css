@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    background-color: rgb(16, 164, 190) ;
+}
+
+.contenedor{
+
+    margin: 100px auto;
+    text-align: center;
+
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+
+#formulario .inText{
+    width: 350px;
+    text-align: left;
+    padding: 10px;
+    border: 0;
+}
+
+#formulario .btnbusca{
+    background-color: yellow;
+    width: 350px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 0;
+    padding: 1rem;
+}
+
+/*Mensaje generado*/
+.error{
+    background-color: red;
+    font-size: 20px;
+    color: rgb(255, 245, 245);
+    padding: 8px;
+    text-align: center;
+}
+
+/*Clases para las img*/
+
+#resultado{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    gap: 1px;
+    border: 0;
+    border-radius: 8px;
+    
+}
+
+#resultado img{
+   width: 100%;
+    
+}
+
+.cards{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.texto span{
+    font-weight: 400;
+    
+}
+
+.texto a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    background-color: rgb(35, 35, 240);
+    color: white;
+    width: 50%;
+    border-radius: 2px;
+    font-weight: bolder;
+    
+
+}
+
+.texto a:hover{
+    background-color: rgb(93, 93, 236);
+    color: white;
+}
+
+/*Paginacion Estilos*/
+#paginacion{
+    display: flex;
+    flex-wrap: wrap;
+}
+.paginaBtn{
+    padding: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    text-decoration: none;
+}
